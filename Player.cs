@@ -16,6 +16,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Vector2 playerDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        playerDir.Normalize();
+        Vector3 playerMove  = (transform.forward * playerDir.y + transform.right * playerDir.x);
+
+        character.Move(playerMove* Time.deltaTime * speed);
     }
 }
