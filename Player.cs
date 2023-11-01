@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public CharacterController;
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
