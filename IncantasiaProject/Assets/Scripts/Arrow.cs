@@ -37,7 +37,9 @@ public class Arrow : MonoBehaviour
         hitTarget = false;
         rbArrow.isKinematic = false;
         rbArrow.useGravity = true;
-        
+
+        transform.parent = null;
+
     }
    
 }
