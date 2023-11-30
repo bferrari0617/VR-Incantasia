@@ -12,8 +12,8 @@ public class Arrow : MonoBehaviour
     public void Start(){
         rbArrow = GetComponent<Rigidbody>();
     }
-
-    public void FixedUpdate() {
+    
+    public void FixedUpdate() { // called by Unity
         if(hitTarget){
             return;
         }
@@ -29,16 +29,21 @@ public class Arrow : MonoBehaviour
 
     public void Stop(){
         hitTarget = true;
+
         rbArrow.isKinematic = true;
         rbArrow.useGravity = false;
     }
 
-    public void Fire(){
+    public void Fire(float pullValue){
         hitTarget = false;
+
         rbArrow.isKinematic = false;
         rbArrow.useGravity = true;
 
         transform.parent = null;
+        rbArrow.AddForce(transform.forward * pullValue * force);
+
+        Destroy(gameObject, 5.0f);
 
     }
    
