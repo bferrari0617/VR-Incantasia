@@ -137,7 +137,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 11400000, guid: f7a12253b336141879c93bddfb536d6d, type: 2}
+  - {fileID: 0}
   - {fileID: 11400000, guid: 53f5c6ed02ec74bfcb49f8d093dc0272, type: 2}
   - {fileID: -7840313057518160881, guid: 34053d19fca6c4abab789b34d57b7d94, type: 2}
   metroInputSource: 0
@@ -436,6 +436,9 @@ PlayerSettings:
   - m_BuildTarget: WebGLSupport
     m_APIs: 0b000000
     m_Automatic: 1
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 02000000
+    m_Automatic: 0
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 0
