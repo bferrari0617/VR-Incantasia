@@ -168,6 +168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 178385504}
+  - component: {fileID: 178385505}
   m_Layer: 0
   m_Name: MiVRy
   m_TagString: Untagged
@@ -190,6 +191,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &178385505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178385503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59d4aea3cbd72c498f430aceb10ef08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LicenseName: 
+  LicenseKey: 
+  LicenseFilePath: 
+  GestureDatabaseFile: 
+  unityXrPlugin: 0
+  mivryCoordinateSystem: 0
+  LeftHand: {fileID: 0}
+  LeftTriggerInput: 
+  LeftTriggerInputType: 0
+  LeftTriggerValue: 0
+  LeftTriggerThreshold: 0.9
+  RightHand: {fileID: 0}
+  RightTriggerInput: 
+  RightTriggerInputType: 0
+  RightTriggerValue: 0
+  RightTriggerThreshold: 0.9
+  ContinuousGestureRecognition: 0
+  ContinuousGesturePeriod: 1000
+  ContinuousGestureSmoothing: 3
+  OnGestureCompletion:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &191670660
 PrefabInstance:
   m_ObjectHideFlags: 0
