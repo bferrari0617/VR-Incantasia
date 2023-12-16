@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18018535, g: 0.22559482, b: 0.30677685, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1540,6 +1540,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a523b2a222cd33041a9851edfed862dd, type: 3}
+--- !u!1001 &1956358614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.989558
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.13335112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.05470302
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00042108342
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 15.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 6.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2655168490893359427, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865406665031858999, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: m_Name
+      value: LightningSpell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251922945442091047, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: NoiseModule.strength.scalar
+      value: 11.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251922945442091047, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: CollisionModule.m_Bounce.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251922945442091047, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
+      propertyPath: CollisionModule.m_EnergyLossOnCollision.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b728699ecdf5904ab4da2921ad768e6, type: 3}
 --- !u!1 &2030287577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1761,3 +1830,4 @@ SceneRoots:
   - {fileID: 1202838841}
   - {fileID: 1226028164}
   - {fileID: 178385504}
+  - {fileID: 1956358614}
